@@ -24,7 +24,7 @@ def main():
                        has_upper_letters,
                        has_lower_letters,
                        has_symbols,
-                       ]
+    ]
     score = 0
     password_option = input("Введите пароль: ")
     for check in password_checks:

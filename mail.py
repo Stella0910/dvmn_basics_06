@@ -20,11 +20,14 @@ def has_symbols(password):
 
 
 def main():
-    password_checks = [is_very_long, has_digit,
-                       has_upper_letters,
-                       has_lower_letters,
-                       has_symbols,
+    password_checks = [
+        is_very_long,
+        has_digit,
+        has_upper_letters,
+        has_lower_letters,
+        has_symbols,
     ]
+
     score = 0
     password_option = input("Введите пароль: ")
     for check in password_checks:
